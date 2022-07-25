@@ -8,8 +8,8 @@ namespace Snake
 {
     internal class Point
     {
-        private int x;
-        private int y;
+        public int x;
+        public int y;
         private char symb;
 
         public Point(int x, int y, char symb)
