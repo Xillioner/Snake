@@ -8,16 +8,9 @@ namespace Snake
 {
     internal class Point
     {
-        private int x;
-        private int y;
-        private char symb;
-
-        public Point(int x, int y, char symb)
-        {
-            this.x = x;
-            this.y = y;
-            this.symb = symb;
-        }
+        public int x;
+        public int y;
+        public char symb;
 
         public void Draw()
         {
